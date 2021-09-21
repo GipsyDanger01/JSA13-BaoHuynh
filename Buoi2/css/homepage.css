@@ -55,3 +55,37 @@
 .header-items>li:hover>a {
     color: yellow;
 }
+
+
+.body-background {
+    position: relative;
+}
+
+.body-header {
+    text-align: center;
+}
+.body-content {
+    text-transform: uppercase;
+}
+
+.body-description {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-column-gap: 100px;
+    grid-row-gap: 25px;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+
+.body-description-header{
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body-photos {
+    display: grid;
+    width: 25%;
+    height: 25%;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+}
