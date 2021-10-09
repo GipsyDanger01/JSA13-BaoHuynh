@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What time now?</title>
+</head>
+<body>
+    <div class="time">
+    <h1>Current time</h1>
+    <p id="hms"></p>
+    <script>
+        var today = new Date();
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+        document.getElementById("hms").innerHTML = time;
+    </script>
+</body>
+<style>
+    .time{
+        background-color: orange;
+        width: 180px;
+        height: 120px;
+        justify-content: center;
+    }
+
+    #hms {
+        text-align: center;
+        font-size: 35px;
+        text-shadow: 2px 2px black;
+        color:white
+    }
+</style>
+</html>
